@@ -1,6 +1,6 @@
 ### 服务器配置
 server:
-  port: 8080
+  port: 8083
 
 ### TIMO配置
 project:
@@ -16,7 +16,7 @@ project:
 spring:
   ## 多环境配置
   profiles:
-    active: @profile.name@                    #多环境配置，默认为dev开发环境
+    active: dev                    #多环境配置，默认为dev开发环境
 
   ## jpa配置
   jpa:
